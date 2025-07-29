@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0808;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin-top: 20px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dddddd;
+}
+
+form input[type="submit"] {
+  background: #35424a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #45a049;
+}
+
+.message {
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  margin: 10px 0;
+}
+
+.message h4 {
+  margin: 0;
+}
+
+.message p {
+  margin: 5px 0;
+}

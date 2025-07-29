@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Messages</h1>
+    <ul>
+        <% messages.forEach(message => { %>
+            <li>
+                <strong><%= message.user %>:</strong> <%= message.text %> <em>(<%= message.added.toLocaleString() %>)</em>
+            </li>
+        <% }); %>
+    </ul>
+    <a href="/new">Add a new message</a>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js"></script>
+    <footer>
+        <p>&copy; 2023 Message Board</p>
+    </footer>
+</body>
+</html>
